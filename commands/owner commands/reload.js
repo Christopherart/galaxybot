@@ -9,7 +9,7 @@ name: "reload",
 */
 run: async (client , message, args) => {
  
-if (message.author.id !== "695090289685299280") return;
+if (message.author.id !== "put your id") return;
 client.commands.sweep(() => true)
 glob(`${__dirname}/../**/*.js` , async (err, filePaths) => {
     if (err) return console.log(err);
