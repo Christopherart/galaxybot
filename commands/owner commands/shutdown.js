@@ -5,7 +5,7 @@ module.exports = {
     description: 'Shutdowns your bot',
     usage: 'shutdown',
     run: async(client, message, args) => {
-if(!message.author.id === "695090289685299280") return message.channel.send("You are not the Owner of the bot")
+if(!message.author.id === "put your id") return message.channel.send("You are not the Owner of the bot")
 message.channel.send("Shutting down the bot...")
 client.destroy()
     }
